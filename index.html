@@ -1,14 +1,40 @@
-<h1>Quelle personnage de Huis Clos es-tu?</h1>
-<script src="charQuiz.js" ></script>
-<div class="quiz-container">
-  <div id="quiz"></div>
- 
-</div>
-<button id="previous">Previous Question</button>
-<button id="next">Next Question</button>
-<button id="submit">Submit Quiz</button>
-<div id="results"></div> 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+        Projet creatif
+    </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.com/84080acb-56a9-4269-b3a7-f42a72aa1829%2Foutput-onlinepngtools.png?v=1594256098843"
+    />
+    <!-- <link
+      rel="icon"
+      sizes="192x192"
+      href="https://cdn.glitch.com/84080acb-56a9-4269-b3a7-f42a72aa1829%2Foutput-onlinepngtools.png?v=1594256098843"
+    /> -->
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="quiz.css" />
 
-
-
-</div>
+    <!-- import the webpage's javascript file -->
+    <script src="quiz.js" defer></script>
+  </head>
+  <body>
+    <div id="quiz">
+        <h1> Quelle personnage de <i>Huis Clos</i> es-tu?</h1>
+        <div id="questions">Pretez?</div>
+        <ul id="answers">
+        </ul>
+        <div style="clear: both"></div>
+        <button id="button" class="button">Commencer le quiz</button>
+      </div>
+      <div id="results">
+        <h1>Vous etês</h1>
+        <h1><span id="topScore"></span></h1>
+        <p><a href="javascript:window.location.href=window.location.href">Restart quiz</a></p>
+      </div>
+  </body>
+</html>
