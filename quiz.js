@@ -56,7 +56,7 @@
 								//question 6 answers								
 							[	"Je ne sais pas, je suis juste un homme ordinaire.", 
 								"Oui! Chaque centime !",
-								"Non! Mon mari a travaillé très dur pour cet argent !"]
+								"Non! Mon mari a travaillé très dur pour cet argent !"],
 
                 //question 7 answers								
 							[	"Rouge", 
@@ -92,8 +92,8 @@
 								
 								//question 5 answer values
               [ [0,1,0], 		
-								[1,0,0],		
-								[0,0,1]
+								[0,0,1],		
+								[1,0,0]
 							],	
 								
 								//question 6 answer values
