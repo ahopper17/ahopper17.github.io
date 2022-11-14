@@ -23,7 +23,7 @@
 							"Que pensez-vous de l'infanticide ?", 				//q4
 							"À quel point êtes-vous similaire à Ellen Degeneres ?", 			//q5
 							"Que pensez-vous de taxer les riches ?", 			//q6
-              "Quelle couleur correspond à votre aura ?"          //q7
+             				"Quelle couleur correspond à votre aura ?"          //q7
 						];
 	
 	//The following array contains all answer text elements for each question
@@ -58,55 +58,56 @@
 								"Oui! Chaque centime !",
 								"Non! Mon mari a travaillé très dur pour cet argent !"],
 
-                //question 7 answers								
+               					//question 7 answers								
 							[	"Rouge", 
-                "Bleu",
-                "Vert"]
+               					"Bleu",
+                				"Vert"]
 						]
 	
 	//The following array contains all personality stat increments for each answer of every question
 	
-	var answerValues =	[		//question 1 answer values
-							[	[1,0,0], 		
-								[0,1,0],		
-								[0,0,1]
-							],	
+	var answerValues =	[		
+		//question 1 answer values
+		[	[1,0,0], 		
+			[0,1,0],		
+			[0,0,1]
+					],	
 						
-								//question 2 answer values
-              [	[0,1,0], 		
-								[1,0,0],		
-								[0,0,1]
-							],	
+		//question 2 answer values
+        [	[0,1,0], 		
+			[1,0,0],		
+			[0,0,1]
+					],	
 
-								//question 3 answer values
-              [	[0,0,1], 		
-								[1,0,0],		
-								[0,1,0]
-							],	
+		//question 3 answer values
+        [	[0,0,1], 		
+			[1,0,0],		
+			[0,1,0]
+					],
 								
-								//question 4 answer values
-              [ [0,1,0], 		
-								[1,0,0],		
-								[0,0,1]
-							],	
+		//question 4 answer values
+        [	[0,1,0], 		
+			[1,0,0],		
+			[0,0,1]
+					],	
 								
-								//question 5 answer values
-              [ [0,1,0], 		
-								[0,0,1],		
-								[1,0,0]
-							],	
+		//question 5 answer values
+        [	[0,1,0], 		
+			[0,0,1],		
+			[1,0,0]
+					],	
 								
-								//question 6 answer values
-              [ [0,0,1], 		
-								[0,1,0],		
-								[1,0,0]
-							],	
+		//question 6 answer values
+        [	[0,0,1], 		
+			[0,1,0],		
+			[1,0,0]
+					],	
 
-              	//question 7 answer values
-              [ [1,0,0], 		
-								[0,0,1],		
-								[0,1,0]
-							],	
+        //question 7 answer values
+        [	[1,0,0], 		
+			[0,0,1],		
+			[0,1,0]
+					],	
 						]
 	
 	/* SHORTCUT VARIABLES */
@@ -186,7 +187,7 @@
 			/*All questions answered - QUESTION TIME IS OVER!*/
 			
 			quizActive = false;
-			buttonElement.innerHTML = "Display your custom website"
+			buttonElement.innerHTML = "Quelle personnage es-tu?"
 			buttonElement.disabled = false;
 			buttonElement.style.opacity = 1;
 		}
@@ -246,16 +247,16 @@
         results.style.display = "inline-block";
         results.classList.add("Ines");
         printResult.innerText = "Ines";
-				break;
+		break;
 				
 			case 2:		//Garcin
         results.style.display = "inline-block";
         results.classList.add("Garcin");
         printResult.innerText = "Garcin";
-				break;
+		break;
 				
-			default: 
-				document.getElementById("error").style.display = "inline-block";
+		default: 
+			document.getElementById("error").style.display = "inline-block";
 
 		}
 	}
