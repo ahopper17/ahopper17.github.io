@@ -15,7 +15,7 @@ header {
 }
 
 nav {
-    background: #444;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     padding: 10px 0;
 }
 
