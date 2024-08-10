@@ -41,8 +41,7 @@ nav ul li a {
 
 section {
     padding: 20px;
-    margin: 100px;
-    background: #fff;
+    margin: 200px;
     border-radius: 5px;
     display: none;  /* Sections are hidden by default */
     text-align: center;  /* Center-align text */
@@ -64,7 +63,7 @@ h2 {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: linear-gradient(to right, #ff7e5f, #feb47b)3;
     color: #fff;
     position: fixed;
     width: 100%;
