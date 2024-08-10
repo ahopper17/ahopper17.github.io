@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -8,9 +8,9 @@ body {
 }
 
 header {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);;
+    background: #333;
     color: #fff;
-    padding: 100px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -35,6 +35,7 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    cursor: pointer;
 }
 
 section {
@@ -42,14 +43,20 @@ section {
     margin: 20px;
     background: #fff;
     border-radius: 5px;
+    display: none;  /* Sections are hidden by default */
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);;
+    background: #333;
     color: #fff;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+/* Ensure hidden sections are not displayed */
+.hidden {
+    display: none;
 }
