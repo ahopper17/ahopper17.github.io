@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
+    padding: 5px;
     margin: 200px;
     border-radius: 5px;
     display: none;  /* Sections are hidden by default */
@@ -53,7 +53,7 @@ section {
 }
 
 h1 {
-    font-size: 4em;     /* Larger font size for headings */
+    font-size: 5em;     /* Larger font size for headings */
 }
 
 h2 {
@@ -63,7 +63,7 @@ h2 {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(to right, #ff7e5f, #feb47b)3;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: #fff;
     position: fixed;
     width: 100%;
