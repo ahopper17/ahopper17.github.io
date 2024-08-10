@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 section {
-    padding: 5px;
+    padding: 0px;
     margin: 200px;
     border-radius: 5px;
     display: none;  /* Sections are hidden by default */
