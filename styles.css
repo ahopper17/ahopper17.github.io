@@ -41,7 +41,7 @@ nav ul li a {
 
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 100px;
     background: #fff;
     border-radius: 5px;
     display: none;  /* Sections are hidden by default */
@@ -53,8 +53,12 @@ section {
     display: block;  /* Home section is visible by default */
 }
 
+h1 {
+    font-size: 4em;     /* Larger font size for headings */
+}
+
 h2 {
-    font-size: 2em;     /* Larger font size for headings */
+    font-size: 2em
 }
 
 footer {
