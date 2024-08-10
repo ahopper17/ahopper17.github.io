@@ -48,6 +48,10 @@ section {
     font-size: 1.2em;    /* Increase font size */
 }
 
+#home {
+    display: block;  /* Home section is visible by default */
+}
+
 h2 {
     font-size: 2em;     /* Larger font size for headings */
 }
