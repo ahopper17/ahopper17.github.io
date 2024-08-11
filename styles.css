@@ -53,11 +53,12 @@ section {
 }
 
 h1 {
+    margin-top: 10px;
     font-size: 5em;     /* Larger font size for headings */
 }
 
 h2 {
-    font-size: 2em
+    font-size: 2em;
 }
 
 footer {
