@@ -53,6 +53,8 @@ section {
 
 #home {
     display: block;  /* Home section is visible by default */
+    text-align: center; /* Centers the images horizontally */
+    padding: 20px;
 }
 
 h1 {
@@ -63,6 +65,7 @@ h1 {
 h2 {
     font-size: 2em;
 }
+
 
 .home-photo {
     width: 100%;        /* Makes the image responsive */
