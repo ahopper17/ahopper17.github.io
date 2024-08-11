@@ -61,6 +61,15 @@ h2 {
     font-size: 2em;
 }
 
+.home-photo {
+    width: 100%;        /* Makes the image responsive */
+    max-width: 200px;   /* Sets a maximum width */
+    height: auto;       /* Maintains the aspect ratio */
+    border-radius: 10px; /* Optional: Rounds the corners */
+    display: block;     /* Ensures the image is a block element */
+    margin: 20px auto;  /* Centers the image and adds some space around it */
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
