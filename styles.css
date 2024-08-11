@@ -18,6 +18,7 @@ header {
 nav {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     padding: 10px 0;
+    margin-bottom: 0px;
 }
 
 nav ul {
@@ -40,6 +41,7 @@ nav ul li a {
 }
 
 section {
+    margin-top: 5px;
     padding: 0px;
     margin: 200px;
     border-radius: 5px;
@@ -63,7 +65,7 @@ h2 {
 
 .home-photo {
     width: 100%;        /* Makes the image responsive */
-    max-width: 200px;   /* Sets a maximum width */
+    max-width: 400px;   /* Sets a maximum width */
     height: auto;       /* Maintains the aspect ratio */
     border-radius: 10px; /* Optional: Rounds the corners */
     display: block;     /* Ensures the image is a block element */
