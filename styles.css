@@ -41,9 +41,9 @@ nav ul li a {
 }
 
 section {
-    margin-top: 5px;
     padding: 0px;
     margin: 200px;
+    margin-top: 5px;
     background: #f4f4f4;
     border-radius: 5px;
     display: none;  /* Sections are hidden by default */
