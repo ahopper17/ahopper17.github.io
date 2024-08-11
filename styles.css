@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #f4f4f4;
     color: #333;
 }
 
@@ -43,8 +43,7 @@ nav ul li a {
 section {
     padding: 0px;
     margin: 200px;
-    margin-top: 5px;
-    background: #f4f4f4;
+    margin-top: 10px;
     border-radius: 5px;
     display: none;  /* Sections are hidden by default */
     text-align: center;  /* Center-align text */
