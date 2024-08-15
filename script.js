@@ -9,13 +9,13 @@ function showSection(sectionId) {
 }
 
 
-    // Remove the 'active' class from all nav links
-    const navLinks = document.querySelectorAll('nav ul li a');
-    navLinks.forEach(link => {
-        link.classList.remove('active');
-    });
+    // // Remove the 'active' class from all nav links
+    // const navLinks = document.querySelectorAll('nav ul li a');
+    // navLinks.forEach(link => {
+    //     link.classList.remove('active');
+    // });
 
-    // Add the 'active' class to the clicked link
-    const activeLink = document.querySelector(`a[href="#${sectionId}"]`);
-    activeLink.classList.add('active');
+    // // Add the 'active' class to the clicked link
+    // const activeLink = document.querySelector(`a[href="#${sectionId}"]`);
+    // activeLink.classList.add('active');
 
