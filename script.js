@@ -1,12 +1,13 @@
 function showSection(sectionId) {
     // Hide all sections
-    const sections = document.querySelectorAll('div[id]');
-    sections.forEach(section => {
-        section.style.display = 'none';
-    });
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => section.style.display = 'none');
 
     // Show the selected section
-    document.getElementById(sectionId).style.display = 'block';
+    const selectedSection = document.getElementById(sectionId);
+    selectedSection.style.display = 'block';
+}
+
 
     // Remove the 'active' class from all nav links
     const navLinks = document.querySelectorAll('nav ul li a');
@@ -17,4 +18,4 @@ function showSection(sectionId) {
     // Add the 'active' class to the clicked link
     const activeLink = document.querySelector(`a[href="#${sectionId}"]`);
     activeLink.classList.add('active');
-}
+
