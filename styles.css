@@ -27,6 +27,7 @@ nav ul {
     margin: 0;
     display: flex;
     justify-content: center;
+    background-color: #333;
 }
 
 nav ul li {
@@ -38,6 +39,14 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Hover color */
+}
+
+nav ul li a.active {
+    background-color: #ff9800; /* Active link color */
 }
 
 section {
