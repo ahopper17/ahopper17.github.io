@@ -1,4 +1,4 @@
-/* body {
+body {
     font-family: Karla, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -42,7 +42,6 @@ section {
     margin: 200px;
     margin-top: 10px;
     border-radius: 5px;
-    display: none; 
     text-align: center; 
     font-size: 1.2em;  
 }
@@ -91,10 +90,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-
-.hidden {
-    display: none;
-} */
-
 
