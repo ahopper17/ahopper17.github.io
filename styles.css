@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-    background: linear-gradient(to right, #418a43, #90d695);
+    background: linear-gradient(to right, #A3D9C8, #2E8B57);
     padding: 10px 0;
     margin-bottom: 0px;
 }
@@ -100,7 +100,7 @@ h3 {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(to right,  #418a43, #90d695);
+    background: linear-gradient(to right,  #A3D9C8, #2E8B57);
     color: #fff;
     position: fixed;
     width: 100%;
