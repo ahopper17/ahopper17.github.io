@@ -31,10 +31,26 @@ nav ul li {
     margin: 0 15px;
 }
 nav ul li a {
-    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
+    transition: background-color 0.3s ease;
     cursor: pointer;
+}
+
+nav ul li a:hover {
+    background-color: #333;  /* Changes background color on hover */
+    color: #fff;  /* Changes text color on hover */
+}
+
+nav ul li a.active {
+    background-color: #feb47b; /* Background color for the active page */
+    color: #333; /* Text color for the active page */
 }
 
 section {
