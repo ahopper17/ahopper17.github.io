@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Option D: single cream "A" on a solid forest block.
+       High-contrast. Reads as the Home page's dark pronunciation
+       panel, miniaturized. Stands out in a crowded tab row. -->
+  <rect width="64" height="64" fill="#2F3E28"/>
+  <text x="32" y="32"
+        text-anchor="middle"
+        dy="0.35em"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-style="italic"
+        font-weight="500"
+        font-size="48"
+        fill="#FBF7F0">A</text>
+</svg>
